@@ -46,7 +46,7 @@
           - address: 192.168.12.2/24
         - name: PCB
             ipv4:
-                - address: 192.168.2.10/24
+            - address: 192.168.2.10/24
     - name: No shut cac cong
       ios_interfaces:
         config:
@@ -62,4 +62,3 @@
     - name: ping e0/1 R2 den R1
       ios_ping:
         dest: 192.168.1.1
-        
